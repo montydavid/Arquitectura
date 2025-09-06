@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomeHooks from './playground/HomeHooks'
 import HookUseNavigate from './playground/HookUseNavigate'
 import HookUseEffect from './playground/HookUseEffect'
+import HookUseContext from './playground/HookUseContext'
+import HookUseReducer from './playground/HookUseReducer'
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Route path='/useEffect' element={<HookUseEffect/>} ></Route>
       <Route path='/useState' element={<HookUseState/>} ></Route>
       <Route path='/useNavigate' element={<HookUseNavigate/>} ></Route>
+      <Route path='/useContext' element={<HookUseContext/>} ></Route>
+      <Route path='/useReducer' element={<HookUseReducer/>} ></Route>
     </Routes>
    
    </BrowserRouter>
